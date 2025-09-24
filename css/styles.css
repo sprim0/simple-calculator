@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    font-weight: bold;
+    color: rgb(216, 239, 10);
+    background-color: hsl(0, 92%, 10%);
+    font-size: 3.5rem;
+}
+
+#calculator{
+    max-width: 500px;
+    background-color: hsl(209, 91%, 32%);    
+    overflow: hidden;
+}
+
+#display{
+    height:auto;
+    width: 100%;    
+    font-size: 3.5rem;
+    text-align: center;
+    color: rgb(216, 239, 10);
+    background-color: hsl(321, 46%, 59%);
+    padding: 30px;
+}
+/* sourced from  https://www.youtube.com/watch?v=I5kj-YsmWjM */
+#keys{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+body{
+    margin-top: 50px;
+    margin-left: 32%;   
+}
+
+
+/* some css code sourced from Bro Code Youtube Channel https://www.youtube.com/watch?v=I5kj-YsmWjM */
